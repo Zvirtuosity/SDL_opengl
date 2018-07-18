@@ -1,0 +1,2 @@
+﻿Main.obj : error LNK2019: 无法解析的外部符号 __imp__glClearColor@16，该符号在函数 "bool __cdecl initGL(struct SDL_Window *)" (?initGL@@YA_NPAUSDL_Window@@@Z) 中被引用
+E:\Graphics\SDL2-2.0.8\VisualC\Debug\HelloWorld2.exe : fatal error LNK1120: 1 个无法解析的外部命令

@@ -1,0 +1,25 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: 中间目录(Debug\)包含从另一个项目(HelloWorld2.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+50_SDL_and_opengl_2.obj : error LNK2019: 无法解析的外部符号 _SDL_GetError，该符号在函数 "bool __cdecl init(void)" (?init@@YA_NXZ) 中被引用
+50_SDL_and_opengl_2.obj : error LNK2019: 无法解析的外部符号 _SDL_CreateWindow，该符号在函数 "bool __cdecl init(void)" (?init@@YA_NXZ) 中被引用
+50_SDL_and_opengl_2.obj : error LNK2019: 无法解析的外部符号 _SDL_DestroyWindow，该符号在函数 "void __cdecl close(void)" (?close@@YAXXZ) 中被引用
+50_SDL_and_opengl_2.obj : error LNK2019: 无法解析的外部符号 _SDL_GL_SetAttribute，该符号在函数 "bool __cdecl init(void)" (?init@@YA_NXZ) 中被引用
+50_SDL_and_opengl_2.obj : error LNK2019: 无法解析的外部符号 _SDL_GL_CreateContext，该符号在函数 "bool __cdecl init(void)" (?init@@YA_NXZ) 中被引用
+50_SDL_and_opengl_2.obj : error LNK2019: 无法解析的外部符号 _SDL_GL_SetSwapInterval，该符号在函数 "bool __cdecl init(void)" (?init@@YA_NXZ) 中被引用
+50_SDL_and_opengl_2.obj : error LNK2019: 无法解析的外部符号 _SDL_GL_SwapWindow，该符号在函数 _SDL_main 中被引用
+50_SDL_and_opengl_2.obj : error LNK2019: 无法解析的外部符号 _SDL_StartTextInput，该符号在函数 _SDL_main 中被引用
+50_SDL_and_opengl_2.obj : error LNK2019: 无法解析的外部符号 _SDL_StopTextInput，该符号在函数 _SDL_main 中被引用
+50_SDL_and_opengl_2.obj : error LNK2019: 无法解析的外部符号 _SDL_GetMouseState，该符号在函数 _SDL_main 中被引用
+50_SDL_and_opengl_2.obj : error LNK2019: 无法解析的外部符号 _SDL_PollEvent，该符号在函数 _SDL_main 中被引用
+50_SDL_and_opengl_2.obj : error LNK2019: 无法解析的外部符号 _SDL_Init，该符号在函数 "bool __cdecl init(void)" (?init@@YA_NXZ) 中被引用
+50_SDL_and_opengl_2.obj : error LNK2019: 无法解析的外部符号 _SDL_Quit，该符号在函数 "void __cdecl close(void)" (?close@@YAXXZ) 中被引用
+50_SDL_and_opengl_2.obj : error LNK2019: 无法解析的外部符号 __imp__glClearColor@16，该符号在函数 "bool __cdecl initGL(void)" (?initGL@@YA_NXZ) 中被引用
+50_SDL_and_opengl_2.obj : error LNK2019: 无法解析的外部符号 __imp__glClear@4，该符号在函数 "void __cdecl render(void)" (?render@@YAXXZ) 中被引用
+50_SDL_and_opengl_2.obj : error LNK2019: 无法解析的外部符号 __imp__glGetError@0，该符号在函数 "bool __cdecl initGL(void)" (?initGL@@YA_NXZ) 中被引用
+50_SDL_and_opengl_2.obj : error LNK2019: 无法解析的外部符号 __imp__glMatrixMode@4，该符号在函数 "bool __cdecl initGL(void)" (?initGL@@YA_NXZ) 中被引用
+50_SDL_and_opengl_2.obj : error LNK2019: 无法解析的外部符号 __imp__glLoadIdentity@0，该符号在函数 "bool __cdecl initGL(void)" (?initGL@@YA_NXZ) 中被引用
+50_SDL_and_opengl_2.obj : error LNK2019: 无法解析的外部符号 __imp__glBegin@4，该符号在函数 "void __cdecl render(void)" (?render@@YAXXZ) 中被引用
+50_SDL_and_opengl_2.obj : error LNK2019: 无法解析的外部符号 __imp__glEnd@0，该符号在函数 "void __cdecl render(void)" (?render@@YAXXZ) 中被引用
+50_SDL_and_opengl_2.obj : error LNK2019: 无法解析的外部符号 __imp__glVertex2f@8，该符号在函数 "void __cdecl render(void)" (?render@@YAXXZ) 中被引用
+MSVCRTD.lib(exe_main.obj) : error LNK2019: 无法解析的外部符号 _main，该符号在函数 "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 中被引用
+..\Lib\SDL2.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“X86”冲突
+E:\Project\SDL\SDL_opengl\SDL2openGL\Debug\SDL2openGL.exe : fatal error LNK1120: 22 个无法解析的外部命令
